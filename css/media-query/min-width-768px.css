@@ -1,0 +1,27 @@
+/* base */
+
+main {
+  max-width: 1350px;
+}
+
+.cus-grid {
+  display: grid;
+}
+
+.cus-grid-cols-2 {
+  grid-template-columns: repeat(2, 2fr);
+}
+
+.cus-flex-jus-end {
+  justify-content: flex-end;
+}
+
+/* header */
+
+/* main */
+
+.big-bg-image {
+  height: 70vh;
+}
+
+/* footer */
