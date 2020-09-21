@@ -70,6 +70,10 @@ a:hover {
 
 /* header */
 
+.cus-header-logo img {
+  width: 7em;
+}
+
 .cus-big-bg-image {
   height: 400px;
   background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("../images/bg-one.jpg");
@@ -130,4 +134,8 @@ a:hover {
 
 .cus-cred-list ul li {
   line-height: 1.3em;
+}
+
+.cus-footer-logo img {
+  width: 9em;
 }
