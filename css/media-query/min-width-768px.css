@@ -1,5 +1,3 @@
-/* base */
-
 main {
   max-width: 1350px;
 }
@@ -45,12 +43,11 @@ main {
   height: 150px;
 }
 
-/* header */
-
-/* main */
-
-/* footer */
-
 .cus-flexed-partners i {
   font-size: 5em;
+}
+
+.cus-about-intro-inner {
+  width: 80%;
+  margin: auto;
 }

@@ -85,6 +85,18 @@ a:hover {
   float: left;
 }
 
+.cus-other-pages-bg-color {
+  background-color: #272a31;
+}
+
+.cus-other-pages-color {
+  color: #d3d3d3;
+}
+
+.cus-display-in-block {
+  display: inline-block;
+}
+
 /* header */
 
 .cus-header-logo img {
@@ -114,7 +126,6 @@ a:hover {
 
 .cus-intro-form {
   width: 400px;
-
 }
 
 .cus-big-bg-inner {
@@ -156,6 +167,25 @@ a:hover {
 
 .cus-speakers p {
   font-size: 0.9em;
+}
+
+.cus-about-intro-bg {
+  background: linear-gradient(to top, rgba(255, 255, 0, 0), rgba(255, 255, 0, 1)), url("../images/about-bg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.cus-about-intro-inner {
+  background-color: #fff;
+}
+
+.cus-about-contact p {
+  border-bottom: 2px solid #ec5242;
+}
+
+.cus-tickets-reserve p {
+  border: 1px solid #c4c4c4;
+  border-radius: 1em;
 }
 
 /* footer */
