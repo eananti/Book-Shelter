@@ -4,6 +4,19 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #f8f8f8;
+}
+
+header {
+  background-color: #fff;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
 .cus-flex {
   display: flex;
 }
@@ -20,8 +33,28 @@
   justify-content: center;
 }
 
+.cus-flex-align-center {
+  align-items: center;
+}
+
+.cus-flex-dr-column {
+  flex-direction: column;
+}
+
 .cus-color {
   color: #272a31;
+}
+
+.cus-second-color {
+  color: #d3d3d3;
+}
+
+.cus-bg-color {
+  background-color: #272a31;
+}
+
+.cus-float-left {
+  float: left;
 }
 
 /* header */
@@ -49,8 +82,37 @@
   background-color: rgb(211, 211, 211, 0.8);
 }
 
-.cus-courses-art article {
-  width: 250px;
+.cus-course-bg-img {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+
+}
+
+.cus-speaker-img-1 {
+  background: url("../images/speaker-1.jpg");
+}
+
+.cus-speaker-img-2 {
+  background: url("../images/speaker-2.jpg");
+}
+
+.cus-speaker-img-3 {
+  background: url("../images/speaker-3.jpg");
+}
+
+.cus-speaker-img-4 {
+  background: url("../images/speaker-4.jpg");
+}
+
+.cus-speakers-bg-img {
+  width: 120px;
+  height: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* footer */
+
+.cus-flexed-partners i {
+  font-size: 6em;
+}

@@ -16,6 +16,23 @@ main {
   justify-content: flex-end;
 }
 
+.cus-flex-dr-md-row {
+  flex-direction: row;
+}
+
+.cus-flex-jus-md-center {
+  justify-content: center;
+}
+
+.cus-courses-art article {
+  width: 230px;
+  margin: 1em 0.8em;
+}
+
+.cus-courses-art img {
+  height: 150px;
+}
+
 /* header */
 
 /* main */
