@@ -5,7 +5,9 @@
 }
 
 body {
+  font-family: 'Lato', sans-serif;
   background-color: #f8f8f8;
+  color: #272a31;
 }
 
 header {
@@ -15,6 +17,15 @@ header {
 img {
   width: 100%;
   height: auto;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ec5242;
 }
 
 .cus-flex {
@@ -41,12 +52,12 @@ img {
   flex-direction: column;
 }
 
-.cus-color {
-  color: #272a31;
-}
-
 .cus-second-color {
   color: #d3d3d3;
+}
+
+.cus-color-red {
+  color: #ec5242;
 }
 
 .cus-bg-color {
