@@ -8,6 +8,7 @@ body {
   font-family: 'Lato', sans-serif;
   background-color: #f8f8f8;
   color: #272a31;
+  line-height: 1.2em;
 }
 
 header {
@@ -21,6 +22,22 @@ img {
 
 a {
   color: inherit;
+}
+
+h1 {
+  font-family: 'Poller One', cursive;
+  font-size: 2.5em;
+  line-height: 1.3em;
+}
+
+h2 {
+  font-size: 1.4em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.3em;
 }
 
 a:hover {
@@ -90,11 +107,6 @@ a:hover {
   color: #fff;
 }
 
-.cus-big-bg-image h1 {
-  font-family: 'Poller One', cursive;
-  font-size: 2.5em;
-}
-
 .cus-big-bg-image input {
   font-size: 0.8em;
   font-style: italic;
@@ -140,6 +152,10 @@ a:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.cus-speakers p {
+  font-size: 0.9em;
 }
 
 /* footer */
