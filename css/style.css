@@ -12,18 +12,22 @@
   justify-content: space-between;
 }
 
-.cus-color {
-  color: #272a31;
+.cus-flex-wrap {
+  flex-wrap: wrap;
 }
 
-.cus-bg-color {
-  background-color: #d3d3d3;
+.cus-flex-jus-center {
+  justify-content: center;
+}
+
+.cus-color {
+  color: #272a31;
 }
 
 /* header */
 
 .cus-big-bg-image {
-  height: 250px;
+  height: 400px;
   background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("../images/bg-one.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -39,6 +43,14 @@
 
 .cus-big-bg-inner {
   padding: 50px 40px;
+}
+
+.cus-form-bg-color {
+  background-color: rgb(211, 211, 211, 0.8);
+}
+
+.cus-courses-art article {
+  width: 250px;
 }
 
 /* footer */
