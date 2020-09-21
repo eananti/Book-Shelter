@@ -83,6 +83,11 @@ a:hover {
   color: #fff;
 }
 
+.cus-main-nav ul li,
+.cus-main-nav i {
+  font-size: 1.2em;
+}
+
 /* main */
 
 .cus-intro-form {
