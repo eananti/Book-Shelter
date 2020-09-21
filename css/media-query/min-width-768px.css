@@ -12,6 +12,10 @@ main {
   grid-template-columns: repeat(2, 2fr);
 }
 
+.cus-flex-md {
+  display: flex;
+}
+
 .cus-flex-jus-end {
   justify-content: flex-end;
 }
@@ -22,6 +26,14 @@ main {
 
 .cus-flex-jus-md-center {
   justify-content: center;
+}
+
+.cus-flex-md-space {
+  justify-content: space-between;
+}
+
+.cus-flex-md-space-even {
+  justify-content: space-evenly;
 }
 
 .cus-courses-art article {
@@ -38,3 +50,7 @@ main {
 /* main */
 
 /* footer */
+
+.cus-flexed-partners i {
+  font-size: 5em;
+}

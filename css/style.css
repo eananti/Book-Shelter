@@ -114,5 +114,9 @@ img {
 /* footer */
 
 .cus-flexed-partners i {
-  font-size: 6em;
+  font-size: 3em;
+}
+
+.cus-cred-list ul li {
+  line-height: 1.3em;
 }
