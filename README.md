@@ -33,9 +33,13 @@
 
 > Refer to [Linters Config](https://github.com/eananti/linters-config/tree/master/html-css) for dependencies setup guide.
 
+## Presentation Video
+
+[Loom]()
+
 ## Live Demo
 
-[Live Demo Link](https://eananti.github.io/News-Week-Clone/)
+[Live Demo Link](https://eananti.github.io/Book-Shelter/)
 
 ## 👤 Author
 
