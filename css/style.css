@@ -178,7 +178,6 @@ a:hover {
 
 .cus-global-summit > div {
   border-top: 2px solid rgb(211, 211, 211, 0.8);
-  border-bottom: 2px solid rgb(211, 211, 211, 0.8);
 }
 
 .cus-global-summit h2 {
@@ -260,7 +259,7 @@ a:hover {
 }
 
 .cus-about-intro-bg {
-  background: linear-gradient(to top, rgba(255, 255, 0, 0), rgba(255, 255, 0, 1)), url("../images/about-bg.jpg");
+  background: url("../images/about-bg.png");
   background-position: center;
   background-size: cover;
 }
