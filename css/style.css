@@ -51,6 +51,12 @@ table {
   border: 1px solid #dee2e6;
 }
 
+button {
+  background-color: #ec5242;
+  border: none;
+  color: #fff;
+}
+
 h2::after,
 .cus-tickets-reserve h1::after {
   content: "";
@@ -279,12 +285,6 @@ a:hover {
   text-transform: capitalize;
 }
 
-.cus-ticket-button button {
-  background-color: #ec5242;
-  border: none;
-  color: #fff;
-}
-
 /* footer */
 
 .cus-flexed-partners i {
@@ -308,6 +308,10 @@ a:hover {
 
   .display-md-show {
     display: block;
+  }
+
+  .display-md-none {
+    display: none;
   }
 
   .cus-display-in-block {
