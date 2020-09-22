@@ -47,7 +47,12 @@ h3 {
   font-size: 1.3em;
 }
 
-h2::after {
+table {
+  border: 1px solid #dee2e6;
+}
+
+h2::after,
+.cus-tickets-reserve h1::after {
   content: "";
   display: block;
   background-color: #ec5242;
@@ -270,6 +275,20 @@ a:hover {
 
 .cus-tickets-reserve h1 {
   font-size: 1.3em;
+}
+
+.cus-tickets-reserve h2 {
+  font-family: 'cocogooseregular', 'Poller One', cursive, Arial, sans-serif;
+  font-size: 1.3em;
+  line-height: 1.3em;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.cus-ticket-button button {
+  background-color: #ec5242;
+  border: none;
+  color: #fff;
 }
 
 /* footer */
