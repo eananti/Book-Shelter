@@ -15,6 +15,11 @@ header {
   background-color: #fff;
 }
 
+@font-face {
+  font-family: 'cocogooseregular';
+  src: url(../fonts/Cocogoose-Pro-trial.ttf);
+}
+
 img {
   width: 100%;
   height: auto;
@@ -25,9 +30,10 @@ a {
 }
 
 h1 {
-  font-family: 'Poller One', cursive;
+  font-family: 'cocogooseregular', 'Poller One', cursive, Arial, sans-serif;
   font-size: 2.5em;
   line-height: 1.3em;
+  font-weight: 600;
 }
 
 h2 {
@@ -180,6 +186,10 @@ a:hover {
 
 .cus-about-contact p {
   border-bottom: 2px solid #ec5242;
+}
+
+.cus-tickets-reserve h1 {
+  font-size: 1.3em;
 }
 
 .cus-tickets-reserve p {
