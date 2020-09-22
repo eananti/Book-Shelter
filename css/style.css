@@ -40,6 +40,7 @@ h2 {
   font-size: 1.4em;
   text-transform: uppercase;
   font-weight: bold;
+  line-height: 1.2em;
 }
 
 h3 {
@@ -90,6 +91,10 @@ a:hover {
 
 .cus-bg-color {
   background-color: #272a31;
+}
+
+.cus-bg-white {
+  background-color: #fff;
 }
 
 .cus-float-left {
@@ -169,6 +174,39 @@ a:hover {
 .cus-program-section article:hover {
   cursor: pointer;
   border: 2px solid #d3d3d3;
+}
+
+.cus-global-summit > div {
+  border-top: 2px solid rgb(211, 211, 211, 0.8);
+  border-bottom: 2px solid rgb(211, 211, 211, 0.8);
+}
+
+.cus-global-summit h2 {
+  text-transform: capitalize;
+}
+
+.cus-global-summit-img img {
+  width: 13em;
+  padding: 2em 3em;
+  border: 1px solid rgb(211, 211, 211, 0.8);
+}
+
+.cus-past-summit-bg-img-1 {
+  background: linear-gradient(rgb(236, 82, 66, 0.7), rgb(236, 82, 66, 0.7)), url("../images/about-summit-1.jpg");
+}
+
+.cus-past-summit-bg-img-2 {
+  background: linear-gradient(rgb(236, 82, 66, 0.7), rgb(236, 82, 66, 0.7)), url("../images/about-summit-2.jpg");
+}
+
+.cus-past-summit-bg {
+  background-repeat: no-repeat;
+  height: 10em;
+  width: 20em;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  cursor: pointer;
 }
 
 .cus-program-section article div {
@@ -299,6 +337,15 @@ a:hover {
   .cus-about-intro-inner {
     width: 80%;
     margin: auto;
+  }
+
+  .cus-global-summit-img img {
+    width: 22em;
+    padding: 2em 3em;
+  }
+
+  .cus-past-summit-bg-img-1 {
+    margin-right: 20px;
   }
 }
 
