@@ -55,14 +55,6 @@ a:hover {
   display: flex;
 }
 
-.cus-flex-wrap {
-  flex-wrap: wrap;
-}
-
-.cus-flex-jus-center {
-  justify-content: center;
-}
-
 .cus-flex-jus-f-end {
   justify-content: flex-end;
 }
@@ -146,10 +138,6 @@ a:hover {
   background-color: rgb(211, 211, 211, 0.8);
 }
 
-.cus-course-bg-img {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
-}
-
 .cus-speaker-img-1 {
   background: url("../images/speaker-1.jpg");
 }
@@ -213,4 +201,57 @@ a:hover {
 
 .cus-footer-logo img {
   width: 9em;
+}
+
+/* media queries */
+
+@media all and (min-width: 768px) {
+  main {
+    max-width: 1350px;
+  }
+
+  .display-md-show {
+    display: block;
+  }
+
+  .cus-grid {
+    display: grid;
+  }
+
+  .cus-grid-cols-2 {
+    grid-template-columns: repeat(2, 2fr);
+  }
+
+  .cus-flex-md {
+    display: flex;
+  }
+
+  .cus-flex-jus-end {
+    justify-content: flex-end;
+  }
+
+  .cus-flex-dr-md-row {
+    flex-direction: row;
+  }
+
+  .cus-flex-jus-md-center {
+    justify-content: center;
+  }
+
+  .cus-flex-md-space {
+    justify-content: space-between;
+  }
+
+  .cus-flex-md-space-even {
+    justify-content: space-evenly;
+  }
+
+  .cus-flexed-partners i {
+    font-size: 5em;
+  }
+
+  .cus-about-intro-inner {
+    width: 80%;
+    margin: auto;
+  }
 }
