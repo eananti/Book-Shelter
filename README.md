@@ -2,7 +2,6 @@
 
 # Book-Shelter
 > This project consists of a HTML & CSS Capstone Project, based on an online website for a conference. It's a real-world-like project, built with business specifications.
-> It follows a given design for this [website](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) by Cindy Shin in Behance, but with personalised content and structure.
 
 ![screenshot](./images/screenshot.png)
 
@@ -46,6 +45,11 @@
 - Github: [@eananti](https://github.com/eananti)
 - Twitter: [@e_ananti](https://twitter.com/e_ananti)
 - Linkedin: [Emeka Ananti](https://www.linkedin.com/in/emekaananti/)
+
+## Acknowledgments
+
+- Great thanks to [Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) and Cindy Shin for the design inspiration.
+- Also, hat tip to [Font Awesome](https://fontawesome.com/icons?d=gallery) and [Google Fonts](https://fonts.google.com/).
 
 ## Show your support
 

@@ -2,6 +2,10 @@ main {
   max-width: 1350px;
 }
 
+.display-md-show {
+  display: block;
+}
+
 .cus-grid {
   display: grid;
 }
