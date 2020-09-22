@@ -49,16 +49,16 @@ a:hover {
   display: flex;
 }
 
-.cus-flex-jus-space {
-  justify-content: space-between;
-}
-
 .cus-flex-wrap {
   flex-wrap: wrap;
 }
 
 .cus-flex-jus-center {
   justify-content: center;
+}
+
+.cus-flex-jus-f-end {
+  justify-content: flex-end;
 }
 
 .cus-flex-align-center {
