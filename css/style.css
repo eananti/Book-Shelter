@@ -373,3 +373,19 @@ a:hover {
     margin: auto;
   }
 }
+
+@media all and (max-width: 767px) {
+  .cus-about-contact h3,
+  .cus-about-contact p {
+    font-size: 0.9em;
+    margin: 0 3.4em;
+  }
+
+  .cus-global-summit h2 {
+    font-size: 1.2em;
+  }
+
+  .cus-global-summit p {
+    margin: 0 2em;
+  }
+}
