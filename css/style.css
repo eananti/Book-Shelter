@@ -249,6 +249,13 @@ a:hover {
   background-size: cover;
 }
 
+.cus-more-speakers button {
+  color: #272a31;
+  border: 1px solid #272a31;
+  border-radius: 0.3em;
+  text-transform: uppercase;
+}
+
 .cus-about-contact p {
   border-bottom: 2px solid #ec5242;
 }
@@ -386,6 +393,14 @@ a:hover {
 }
 
 @media all and (max-width: 767px) {
+  body {
+    background-color: #fff;
+  }
+
+  .display-sm-none {
+    display: none;
+  }
+
   .cus-display-in-sm-block {
     display: inline-block;
   }
