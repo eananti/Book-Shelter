@@ -148,6 +148,7 @@ a:hover {
   background-position: center;
   background-size: cover;
   color: #fff;
+  background-attachment: fixed;
 }
 
 .cus-big-bg-image input {
